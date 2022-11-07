@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '10.0'
+
+target 'Highlight_Example' do
+  pod 'Highlight', :path => '../'
+
+  target 'Highlight_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
