@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'Highlight'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of Highlight.'
+  s.summary          = 'Highlight allows easy highlighting of any UI element.'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -18,7 +18,8 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+Highlight any UI element, style it, add text to it.
+Usage is intented for explanation/guidance purposes.
                        DESC
 
   s.homepage         = 'https://github.com/Jonathan Provo/Highlight'
@@ -30,8 +31,8 @@ TODO: Add long description of the pod here.
 
   s.ios.deployment_target = '10.0'
 
-  s.source_files = 'Highlight/Classes/**/*'
-  
+  s.source_files = 'Highlight/Sources/**/*'
+
   # s.resource_bundles = {
   #   'Highlight' => ['Highlight/Assets/*.png']
   # }

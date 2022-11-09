@@ -1,0 +1,6 @@
+framework module Highlight {
+  umbrella header "Highlight-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,22 @@
+{
+  "name": "Highlight",
+  "version": "0.1.0",
+  "summary": "A short description of Highlight.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/Jonathan Provo/Highlight",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Jonathan Provo": "provo.jonathan@appwise.be"
+  },
+  "source": {
+    "git": "https://github.com/Jonathan Provo/Highlight.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "10.0"
+  },
+  "source_files": "Highlight/Classes/**/*"
+}
